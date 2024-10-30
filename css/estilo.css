@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+.convr{
+    position: relative; 
+    padding: 100px 0px;
+}
+
+.convr .dentro{
+    max-width: 1149px;
+    margin: 0 auto;
+
+}
+
+.convr .dentro .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.convr .dentro .row.primeira{
+    padding-bottom: 50px;
+}
+
+.convr h1{
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #0021ff;
+    margin-bottom: 45px;
+}
+
+
+.convr h2{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #0021ff;
+    margin-bottom: 45px;
+	margin-top: 45px;
+}
+
+.convr img{
+	display: block;
+	
+}
+
+.convr img.sombra{
+	box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.28);
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.convr .button{
+        border-radius: 10px;
+        background-image: -moz-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);
+        background-image: -webkit-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);
+        background-image: -ms-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);
+        display: inline-block;
+        font-size: 16px;
+        font-family: "Roboto";
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 10px 25px;
+        height: auto;    
+        outline: none;   
+        border: none; 
+}
+
+.convr .button:hover{
+    background-image: -moz-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);
+    background-image: -webkit-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);
+    background-image: -ms-linear-gradient( 150deg, rgb(17,30,250) 0%, rgb(30,37,148) 100%);  
+    color: white;   
+    outline: none;   
+    border: none; 
+}
+
+.convr span.c{
+    font-size: 16px;
+    color: #878686;
+    font-family: "Roboto";
+    font-weight: 700;
+    margin: 30px 0px 15px;
+    display: block; 
+}
+
+.convr label{
+    font-size: 16px;
+    color: #878686;
+    font-family: "Roboto";
+    font-weight: 700;
+    display: block;    
+    margin: 0px;
+}
+
+/* Formulário */
+
+.convr input{
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+    display: block;
+    width: 100%;
+    box-shadow: none; 
+}
+
+.convr input:active, .convr input:focus{
+    box-shadow: none; 
+    border-color: #0021ff;
+}
+
+.convr textarea{
+    background-color: #303030;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: block;
+    width: 100%;
+    color: white; 
+}
+
+.convr textarea:active, .convr textarea:focus{
+    box-shadow: none; 
+    border-color: #303030;
+}
+
+.convr select{
+    border-radius: 10px;
+    padding: 10px 20px;   
+    color: #878686;
+    height: auto;
+}
+
+.row.espaco{
+    margin-top: 30px;
+}
+
+
+.convr input[type=radio], .convr input[type=checkbox]{
+    display:none; /* Esconde os inputs */
+}
+ 
+.convr input[type=radio] + label, .convr input[type=checkbox] + label{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 40px;
+    margin:0 10px 0 0;
+    background-image:url('../img/ico-master.png');
+    background-repeat:no-repeat;
+    background-position:0 0;
+}
+
+ 
+.convr input[type=radio]:checked + label{
+    background-position:0 -30px;
+}
+ 
+.convr input[type=checkbox]:checked + label {
+    background-position:0 -30px;
+}
+
+.convr .some{
+	display: none;
+}
+
+.convr .codigos .editar,
+.convr .codigos .excluir{
+	display: inline-block;
+	vertical-align: middçe;
+}
+
+.convr .codigos .editar{
+	width: 19px;
+	height: 19px;
+	background-image: url('../img/edit.png');
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-right: 15px;
+}
+
+.convr .codigos .excluir{
+	width: 16px;
+	height: 18px;
+	background-image: url('../img/delete.png');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.convr .codigos .editar:hover{
+	background-image: url('../img/edit-hover.png');	
+}
+
+.convr .codigos .excluir:hover{
+	background-image: url('../img/delete-hover.png');	
+}
